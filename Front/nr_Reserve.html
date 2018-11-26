@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<link rel="icon" href="img/16.png" type="image/png" sizes="20x20">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style_1.css">
+    <title>Make a reservation in ... now! | Dine-Split!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700%7CDancing+Script%7CMontserrat:400,700%7CMerriweather:400,300italic%7CLato:400,700,900">
+    <!-- ... = nombre del restaurante -->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="card">
+        <div class="row">
+          <div class="col-md-5 order-md-2">
+            <img src="img/chilis_restaurant.jpg" style="width:100%" class="img-fluid element" alt="Responsive image" &raquo>
+            <!-- ... = imagen del restaurante   ... _restaurant.jpg -->
+          </div>
+
+          <div class="col-md-7 order-md-1">
+            <div class="card-body p-5">
+              <h1 id="montse">Reservation at Chilis</h1>
+              <!-- ... = nombre del restaurante -->
+              <br>
+              <form id="raleway">
+                <h6>Host's Name</h6>
+                <input type="text" name="host_name" class="form-control" required autofocus>
+                <br>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h6>People in your Party</h6>
+                    <select class="form-control" name="party_number" required>
+                      <option value="">Select One</option>
+                      <option value="2p">2</option>
+                      <option value="3p">3</option>
+                      <option value="4p">4</option>
+                      <option value="5p">5</option>
+                      <option value="6p">6</option>
+                      <option value="7p">7</option>
+                      <option value="8p">8</option>
+                    </select>
+                    <br>
+                  </div>
+                  <div class="col-lg-6">
+                    <h6>Time of Arrival</h6>
+                    <input type="time" name="time_arrival" class="form-control" required>
+                  </div>
+                </div>
+
+                <hr>
+                <input id="button" type="submit" class="btn" value="Make Reservation">
+                <!-- ... = alerta de "The reservation has been made correctly! See you there" y redirigir a index -->
+                <a id="returnbutton" href="nr_catalogo_rest.html" class="btn btn-default">Return</a>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/code_1.js"></script>
+  </body>
+</html>

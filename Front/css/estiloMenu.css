@@ -1,0 +1,105 @@
+.alimento img{
+    margin: 20px 0;
+}
+
+.alimento select{
+    width: 50%;
+    float: left;
+}
+
+.alimento .btn{
+    width: 100%;
+    margin: 14px 0;
+}
+
+#filtros{
+    padding: 0 144px;
+}
+
+#botonCarrito{
+    color: white;
+    background-color: #EE712B;
+    font-size: 50px;
+    border-radius: 61px;
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    padding: 12px 5px 0px 7px;
+    position: fixed;
+    bottom: 4vh;
+    right: 3vw;
+    cursor: pointer;
+}
+
+#cantidadCarrito{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    position: fixed;
+    right: 4vw;
+    bottom: 10vh;
+    width: 30px;
+    border-radius: 16px;
+}
+
+#carrito{
+    border: 2px solid black;
+    border-bottom: none;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-top: 14px;
+    width: 560px;
+    font-size: 22px
+}
+
+#carrito .col-8{
+    border-right: 2px solid black;
+}
+
+
+
+#carrito #footer{
+    border-top: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+#carrito .col-4{
+    text-align: right;
+}
+
+#carrito #header{
+    border-bottom: 2px solid black;
+    text-align: center !important;
+    font-weight: bold;
+}
+
+#insertarPersonas{
+    background-color: #e4e4e4;
+    padding: 24px;
+    overflow: auto;
+    height: 142px;
+}
+
+#insertarPersonas .contUsuario{
+    text-align: center;
+    font-size: 55px;
+    background-color: #dc4712;
+    border-radius: 442px;
+    display: block;
+    cursor: pointer;
+    color: white;
+    width: 80px;
+    margin: auto;
+}
+
+#insertarPersonas .contUsuario.selected{
+    font-size: 45px;
+    width: 85px;
+    border: 8px solid black;
+}
+
+#insertarPersonas .nombreUsuario{
+    margin-top: 4px;
+    text-align: center
+}

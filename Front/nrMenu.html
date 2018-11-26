@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>... Menu | Dine-Split!</title>
+    <!-- ... es el nombre del restaurante -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <link rel="icon" href="img/16.png" type="image/png" sizes="20x20">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700%7CDancing+Script%7CMontserrat:400,700%7CMerriweather:400,300italic%7CLato:400,700,900">
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <div id="menu" class="container-fluid text-center">
+      <h1 onclick="filter('all')" id="montse" style="font-size:50px; cursor: pointer">M  e n u</h1> <br> <br>
+      <div id="montse"class="row" >
+        <div class="col-sm-4 col-lg-3 btn" onclick="filter('appetizer')">
+            <img src="img/01.png" class="option" alt="Appetizers">
+            <h3 >Appetizers</h3>
+        </div>
+        <div class="col-sm-4 col-lg-3 btn" onclick="filter('mdish')">
+            <img src="img/02.png" class="option" alt="Main Dish">
+            <h3>Main Dish</h3>
+        </div>
+        <div class="col-sm-4 col-lg-3 btn" onclick="filter('dessert')">
+            <img src="img/03.png" class="option" alt="Desserts">
+            <h3>Desserts</h3>
+        </div>
+        <div class="col-sm-4 col-lg-3 btn" onclick="filter('beverages')">
+            <img src="img/04.png" class="option" alt="Beverages">
+            <h3>Beverages</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="column container mine" id="appetizer" name="appetizer">
+      <div class="row">
+        <h1 id="montse">Appetizers</h1>
+      </div>
+      <div class="row">
+        <div class="col-s-12 col-md-4">
+          <img src="img/chilis/01.jpg" width="75%" height="75%">
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h4>Fried Cheese</h4>
+          <p>Breaded Mozzarella cheese sticks, accompanied by Marinara sauce.</p>
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h3>$150.00</h3>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-s-12 col-md-4">
+          <img src="img/chilis/02.jpg" width="75%" height="75%">
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h4>Ultimate Dipper</h4>
+          <p>Enjoy six incredible appetizers: <br>
+            Honey Chipotle Chicken Crisper <br>
+            Chicken Crispers <br>
+            Boneless Wings <br>
+            Famous Wings <br>
+            Fried Cheese <br>
+            Southwestern Eggrolls</p>
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h3>$250.00</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="column container mine" id="mdish" name="mdish">
+      <div class="row">
+        <h1 id="montse">Main Dish</h1>
+      </div>
+      <div class="row">
+        <div class="col-s-12 col-md-4">
+          <img src="img/chilis/03.jpg" width="75%" height="75%">
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h4>Famous Baby Back Ribs</h4>
+          <p>You can order half ribs of one flavor and half of another.<br>Accompanied with corn and french fries (368 g)</p>
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h3>$380.00</h3>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-s-12 col-md-4">
+          <img src="img/chilis/04.jpg" width="75%" height="75%">
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h4>Oldtimer with Cheese</h4>
+          <p>Hamburger with mustard, lettuce, tomato, homemade pickles, red onion and Cheddar cheese.</p>
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h3>$180.00</h3>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-s-12 col-md-4">
+          <img src="img/chilis/05.png" width="75%" height="75%">
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h4>Cajun Club Sandwich</h4>
+          <p>Sandwich with turkey or chicken breast, bacon, lettuce, tomato and a combination of cheeses. Accompanied by french fries.</p>
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h3>$200.00</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="column container mine" id="dessert" name="dessert">
+      <div class="row">
+        <h1 id="montse">Desserts</h1>
+      </div>
+      <div class="row">
+        <div class="col-s-12 col-md-4">
+          <img src="img/chilis/06.jpg" width="75%" height="75%">
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h4>Mini Molten</h4>
+          <p>Try our exquisite version of molten chocolate cake individually.</p>
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h3>$60.00</h3>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-s-12 col-md-4">
+          <img src="img/chilis/07.jpg" width="75%" height="75%">
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h4>Skillet Chocolate Chip Cookie</h4>
+          <p>Topped with vanilla ice cream, hot fudge.</p>
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h3>$150.00</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="column container mine" id="beverages" name="beverages">
+      <div class="row">
+        <h1 id="montse">Beverages</h1>
+      </div>
+      <div class="row">
+        <div class="col-s-12 col-md-4">
+          <img src="img/chilis/08.jpg" width="75%" height="75%">
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h4>Limonade</h4>
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h3>$60.00</h3>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-s-12 col-md-4">
+          <img src="img/chilis/09.jpg" width="75%" height="75%">
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h4>Orange juice</h4>
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h3>$60.00</h3>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-s-12 col-md-4">
+          <img src="img/chilis/10.png" width="75%" height="75%">
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h4>Capuccino</h4>
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h3>$70.00</h3>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-s-12 col-md-4">
+          <img src="img/chilis/11.jpg" width="75%" height="75%">
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h4>Red Berry Sangria</h4>
+        </div>
+        <div class="col-s-12 col-md-4">
+          <h3>$100.00</h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/code3.js"></script>
+  </body>
+</html>

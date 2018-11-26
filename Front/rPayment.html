@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Payment | Dine-Split!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <link rel="icon" href="img/16.png" type="image/png" sizes="20x20">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700%7CDancing+Script%7CMontserrat:400,700%7CMerriweather:400,300italic%7CLato:400,700,900">
+  </head>
+  <body>
+
+    <div class="container-fluid text-center">
+      <h1>Payment</h1> <br><br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="hidden-xs">
+            <img src="img/17.jpg" alt="payment" width="750px">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <form>
+              <div class="col-sm-12 form-group text-left">
+                <h4>How many persons?</h4>
+                <input class="form-control" type="number" name="people" placeholder="No. people" required> <br>
+                <h4> <b>Person 1:</b> </h4>
+                <div class="col-md-6">
+                  <p>Food 1</p>
+                  <p>Beverage 1</p>
+                </div>
+                <div class="col-md-6">
+                  <p>Price Food 1</p>
+                  <p>Price Beverage 1</p>
+                </div>
+                ----------------------------------------------------------------------------------------------
+                <h4> <b>Person 2:</b> </h4>
+                <div class="col-md-6">
+                  <p>Food 1</p>
+                  <p>Beverage 1</p>
+                </div>
+                <div class="col-md-6">
+                  <p>Price Food 1</p>
+                  <p>Price Beverage 1</p>
+                </div>
+                ----------------------------------------------------------------------------------------------
+                <!-- <hr> -->
+                <div class="row">
+                  <div class="col-md-6">
+                    <h3>Total: </h3>
+                  </div>
+                  <div class="col-md-6">
+                    <h2>$250.00</h2> <br>
+                    <!-- Cambiar con la base de datos. -->
+                  </div>
+                </div>
+                <h4>Payment method: </h4>
+                <div class="col-sm-6 text-center">
+                  <button class="btn" name="button">Fair-Split</button>
+                </div>
+                <div class="col-sm-6 text-center">
+                  <button class="btn" name="button">Individual</button>
+                </div>
+            </form>
+          </div>
+        </div>
+        <br> <br>
+        <div class="col-sm-12 form-group row text-left">
+          <a href="r_OrderPay.html"><button class="btn" type="submit" name="button" style="font-size: 30px">Cancel</button></a>
+          <button class="btn" type="submit" name="button" style="font-size: 30px">Pay</button>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

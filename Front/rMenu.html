@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>... Menu | Dine-Split!</title>
+  <!-- ... es el nombre del restaurante -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+  <link rel="icon" href="img/16.png" type="image/png" sizes="20x20">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style3.css">
+  <link rel="stylesheet" type="text/css" href="css/estiloMenu.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700%7CDancing+Script%7CMontserrat:400,700%7CMerriweather:400,300italic%7CLato:400,700,900">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <div class="modal" tabindex="-1" role="dialog" id="modalCarrito">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Revisar Pedido1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <h1>Orden de Juan</h1>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="row" id="header">
+                    <div class="col-8">
+                      Producto
+                    </div>
+                    <div class="col-4">
+                      Total
+                    </div>
+                  </div>
+          
+                  <div class="row">
+                    <div class="col-8">
+                      Alitas Perronas
+                    </div>
+                    <div class="col-4">
+                      $155
+                    </div>
+                  </div>
+          
+                  <div class="row" id="footer">
+                    <div class="col-8">
+                      Total:
+                    </div>
+                    <div class="col-4">
+                      $155
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row text-center">
+      <h1 style="margin: auto;">Pedido de Cliente</h1>
+    </div>
+    <div class="row" id="insertarPersonas">
+      <div class="col-2">
+        <div class="contUsuario">
+          <i class="far fa-user"></i>
+        </div>
+        <h5 class="nombreUsuario">Sergio</h5>
+      </div>
+      <div class="col-2">
+        <div class="contUsuario">
+          <i class="far fa-user"></i>
+        </div>
+        <h5 class="nombreUsuario">Sergio</h5>
+      </div>
+      <div class="col-2">
+        <div class="contUsuario">
+          <i class="far fa-user"></i>
+        </div>
+        <h5 class="nombreUsuario">Sergio</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center">
+
+    <div id="filtros" class="row">
+      <div class="col-sm-4 col-lg-3 btn" onclick="filter('appetizer')">
+        <img src="img/01.png" class="option" alt="Appetizers">
+        <h3>Appetizers</h3>
+      </div>
+      <div class="col-sm-4 col-lg-3 btn" onclick="filter('mdish')">
+        <img src="img/02.png" class="option" alt="Main Dish">
+        <h3>Main Dish</h3>
+      </div>
+      <div class="col-sm-4 col-lg-3 btn" onclick="filter('dessert')">
+        <img src="img/03.png" class="option" alt="Desserts">
+        <h3>Desserts</h3>
+      </div>
+      <div class="col-sm-4 col-lg-3 btn" onclick="filter('beverages')">
+        <img src="img/04.png" class="option" alt="Beverages">
+        <h3>Beverages</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" id="insertarAlimentos">
+
+    </div>
+  </div>
+
+
+  <div id="botonCarrito">
+    <div id="cantidadCarrito">
+      3
+    </div>
+    <i class="fas fa-list-alt"></i>
+  </div>
+
+
+  <script src="js/code3.js"></script>
+  <script src="js/scriptMenu.js"></script>
+</body>
+
+</html>

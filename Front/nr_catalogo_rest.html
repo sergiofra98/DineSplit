@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<link rel="icon" href="img/16.png" type="image/png" sizes="20x20">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style_1.css">
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700%7CDancing+Script%7CMontserrat:400,700%7CMerriweather:400,300italic%7CLato:400,700,900">
+    <title>Restaurants Catalogue | Dine-Split!</title>
+  </head>
+
+  <body>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="menuRestaurante">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+              <div id="menu" class="container-fluid text-center">
+                <h1 onclick="filter('all')" id="montse" style="font-size:50px; cursor: pointer">M  e n u</h1> <br> <br>
+                <div id="montse"class="row" >
+                  <div class="col-sm-4 col-lg-3 btn" onclick="filter('appetizer')">
+                      <img src="img/01.png" class="option" alt="Appetizers">
+                      <h3 >Appetizers</h3>
+                  </div>
+                  <div class="col-sm-4 col-lg-3 btn" onclick="filter('mdish')">
+                      <img src="img/02.png" class="option" alt="Main Dish">
+                      <h3>Main Dish</h3>
+                  </div>
+                  <div class="col-sm-4 col-lg-3 btn" onclick="filter('dessert')">
+                      <img src="img/03.png" class="option" alt="Desserts">
+                      <h3>Desserts</h3>
+                  </div>
+                  <div class="col-sm-4 col-lg-3 btn" onclick="filter('beverages')">
+                      <img src="img/04.png" class="option" alt="Beverages">
+                      <h3>Beverages</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column container mine" id="appetizer" name="appetizer">
+                <div class="row">
+                  <h1 id="montse">Appetizers</h1>
+                </div>
+                <div class="row">
+                  <div class="col-s-12 col-md-4">
+                    <img src="img/chilis/01.jpg" width="75%" height="75%">
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h4>Fried Cheese</h4>
+                    <p>Breaded Mozzarella cheese sticks, accompanied by Marinara sauce.</p>
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h3>$150.00</h3>
+                  </div>
+                </div>
+                <br><br>
+                <div class="row">
+                  <div class="col-s-12 col-md-4">
+                    <img src="img/chilis/02.jpg" width="75%" height="75%">
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h4>Ultimate Dipper</h4>
+                    <p>Enjoy six incredible appetizers: <br>
+                      Honey Chipotle Chicken Crisper <br>
+                      Chicken Crispers <br>
+                      Boneless Wings <br>
+                      Famous Wings <br>
+                      Fried Cheese <br>
+                      Southwestern Eggrolls</p>
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h3>$250.00</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column container mine" id="mdish" name="mdish">
+                <div class="row">
+                  <h1 id="montse">Main Dish</h1>
+                </div>
+                <div class="row">
+                  <div class="col-s-12 col-md-4">
+                    <img src="img/chilis/03.jpg" width="75%" height="75%">
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h4>Famous Baby Back Ribs</h4>
+                    <p>You can order half ribs of one flavor and half of another.<br>Accompanied with corn and french fries (368 g)</p>
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h3>$380.00</h3>
+                  </div>
+                </div>
+                <br><br>
+                <div class="row">
+                  <div class="col-s-12 col-md-4">
+                    <img src="img/chilis/04.jpg" width="75%" height="75%">
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h4>Oldtimer with Cheese</h4>
+                    <p>Hamburger with mustard, lettuce, tomato, homemade pickles, red onion and Cheddar cheese.</p>
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h3>$180.00</h3>
+                  </div>
+                </div>
+                <br><br>
+                <div class="row">
+                  <div class="col-s-12 col-md-4">
+                    <img src="img/chilis/05.png" width="75%" height="75%">
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h4>Cajun Club Sandwich</h4>
+                    <p>Sandwich with turkey or chicken breast, bacon, lettuce, tomato and a combination of cheeses. Accompanied by french fries.</p>
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h3>$200.00</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column container mine" id="dessert" name="dessert">
+                <div class="row">
+                  <h1 id="montse">Desserts</h1>
+                </div>
+                <div class="row">
+                  <div class="col-s-12 col-md-4">
+                    <img src="img/chilis/06.jpg" width="75%" height="75%">
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h4>Mini Molten</h4>
+                    <p>Try our exquisite version of molten chocolate cake individually.</p>
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h3>$60.00</h3>
+                  </div>
+                </div>
+                <br><br>
+                <div class="row">
+                  <div class="col-s-12 col-md-4">
+                    <img src="img/chilis/07.jpg" width="75%" height="75%">
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h4>Skillet Chocolate Chip Cookie</h4>
+                    <p>Topped with vanilla ice cream, hot fudge.</p>
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h3>$150.00</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column container mine" id="beverages" name="beverages">
+                <div class="row">
+                  <h1 id="montse">Beverages</h1>
+                </div>
+                <div class="row">
+                  <div class="col-s-12 col-md-4">
+                    <img src="img/chilis/08.jpg" width="75%" height="75%">
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h4>Limonade</h4>
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h3>$60.00</h3>
+                  </div>
+                </div>
+                <br><br>
+                <div class="row">
+                  <div class="col-s-12 col-md-4">
+                    <img src="img/chilis/09.jpg" width="75%" height="75%">
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h4>Orange juice</h4>
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h3>$60.00</h3>
+                  </div>
+                </div>
+                <br><br>
+                <div class="row">
+                  <div class="col-s-12 col-md-4">
+                    <img src="img/chilis/10.png" width="75%" height="75%">
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h4>Capuccino</h4>
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h3>$70.00</h3>
+                  </div>
+                </div>
+                <br><br>
+                <div class="row">
+                  <div class="col-s-12 col-md-4">
+                    <img src="img/chilis/11.jpg" width="75%" height="75%">
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h4>Red Berry Sangria</h4>
+                  </div>
+                  <div class="col-s-12 col-md-4">
+                    <h3>$100.00</h3>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="reservarRestaurante">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="container" style="
+    padding: 0px 0;
+">
+            <div class="card" style="
+    padding: 12px;
+">
+              <div class="row">
+                <div class="row">
+    <div class="col"><img src="img/chilis_restaurant.jpg" style="width:;width: 85%;margin: auto;text-align: center;display: block;" class="" alt="Responsive image" &raquo="">
+                  <!-- ... = imagen del restaurante   ... _restaurant.jpg --></div>
+
+                </div>
+
+                <div class="col">
+                  <div class="card-body p-5">
+                    <h1 id="montse">Reservation at Chilis</h1>
+                    <!-- ... = nombre del restaurante -->
+                    <br>
+                    <form id="raleway">
+                      <h6>Host's Name</h6>
+                      <input type="text" name="host_name" class="form-control" required="" autofocus="">
+                      <br>
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <h6>People in your Party</h6>
+                          <select class="form-control" name="party_number" required="">
+                            <option value="">Select One</option>
+                            <option value="2p">2</option>
+                            <option value="3p">3</option>
+                            <option value="4p">4</option>
+                            <option value="5p">5</option>
+                            <option value="6p">6</option>
+                            <option value="7p">7</option>
+                            <option value="8p">8</option>
+                          </select>
+                          <br>
+                        </div>
+                        <div class="col-lg-6">
+                          <h6>Time of Arrival</h6>
+                          <input type="time" name="time_arrival" class="form-control" required="">
+                        </div>
+                      </div>
+
+                      <hr>
+    <a id="returnbutton" href="nr_catalogo_rest.html" class="btn btn-default">Return</a>
+                      <input id="button" type="submit" class="btn" value="Make Reservation">
+                      <!-- ... = alerta de "The reservation has been made correctly! See you there" y redirigir a index -->
+
+
+                      </form>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <div id="raleway" class="container">
+      <h2 id="opentext">Select the Restaurant of your preference</h2>
+      <br>
+      <div class="btn-group" id="botonfiltrado">
+        <button id="button-F" type="btn" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Filter by Type of Food
+        </button>
+        <div id="button-F-ho"class="dropdown-menu">
+              <a class="dropdown-item" onclick="Filtro('American')" href="#">American</a>
+              <a class="dropdown-item" onclick="Filtro('Italian')" href="#">Italian</a>
+              <a class="dropdown-item" onclick="Filtro('Japanese')" href="#">Japanese</a>
+              <a class="dropdown-item" onclick="Filtro('all')" href="#">All Restaurants</a>
+       </div>
+      </div>
+      <br> <br>
+      <div class="container">
+        <div class="card-columns ">
+          <div class="card" id="American"> <!-- Agregar tipo a la bd correspondiente -->
+              <img src="img/chilis1.jpg" style="width:100%" class="image">
+              <!-- imagen  ...1.jpg -->
+              <div class="middle">
+                <a id="button" class="btn" onclick="$('#reservarRestaurante').modal()">>Reserve</a>
+                <!-- Pones el href correcto -->
+                <br><br>
+                <a id="button" class="btn" onclick="$('#menuRestaurante').modal()">Explore</a>
+              </div>
+          </div>
+          <!-- Puedes borrar los de abajo ya que pongas el php bien y asi -->
+          <div class="card" id="Japanese">
+              <img src="img/mrsushi1.jpg" style="width:100%" class="image">
+              <div class="middle">
+                <a id="button" class="btn" href="inicio.html">Reserve</a>
+                <br><br>
+                <a id="button" class="btn" href="inicio.html">Explore</a>
+              </div>
+          </div>
+          <div class="card" id="American">
+              <img src="img/cheesecakefactory1.jpg" style="width:100%" class="image">
+              <div class="middle">
+                <a id="button" class="btn" href="inicio.html">Reserve</a>
+                <br><br>
+                <a id="button" class="btn" href="inicio.html">Explore</a>
+              </div>
+          </div>
+          <div class="card" id="Italian">
+              <img src="img/italiannis1.jpg" style="width:100%" class="image">
+              <div class="middle">
+                <a id="button" class="btn" href="inicio.html">Reserve</a>
+                <br><br>
+                <a id="button" class="btn" href="inicio.html">Explore</a>
+              </div>
+          </div>
+          <div class="card" id="Japanese">
+              <img src="img/sushiitto1.jpg" style="width:100%" class="image">
+              <div class="middle">
+                <a id="button" class="btn" href="inicio.html">Reserve</a>
+                <br><br>
+                <a id="button" class="btn" href="inicio.html">Explore</a>
+              </div>
+          </div>
+          <div class="card" id="American">
+              <img src="img/rebelwings1.jpg" style="width:100%" class="image">
+              <div class="middle">
+                <a id="button" class="btn" href="inicio.html">Reserve</a>
+                <br><br>
+                <a id="button" class="btn" href="inicio.html">Explore</a>
+              </div>
+          </div>
+
+        </div>
+      </div>
+      <a id="returnbutton" href="Principal_Usuario.html" class="btn btn-default">Return</a>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/code_1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<link rel="icon" href="img/16.png" type="image/png" sizes="20x20">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style_1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700%7CDancing+Script%7CMontserrat:400,700%7CMerriweather:400,300italic%7CLato:400,700,900">
+    <title>Restaurants Catalogue | Dine-Split!</title>
+  </head>
+
+  <body>
+    <br>
+    <div class="container">
+      <h2 id="opentext">Select the Restaurant you are in</h2>
+      <br>
+      <div class="btn-group" id="botonfiltrado">
+        <button id="button-F" type="btn" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Filter by Type of Food
+        </button>
+        <div id="button-F-ho" class="dropdown-menu">
+              <a class="dropdown-item" onclick="Filtro('American')" href="#">American</a>
+              <a class="dropdown-item" onclick="Filtro('Italian')" href="#">Italian</a>
+              <a class="dropdown-item" onclick="Filtro('Japanese')" href="#">Japanese</a>
+              <a class="dropdown-item" onclick="Filtro('all')" href="#">All Restaurants</a>
+       </div>
+      </div>
+      <br> <br>
+      <div class="container">
+        <div class="card-columns ">
+          <div class="card" id="American"> <!-- Agregar tipo a la bd correspondiente -->
+              <img src="img/chilis1.jpg" style="width:100%" class="image">
+              <!-- imagen  ...1.jpg -->
+              <div class="middle">
+                <a id="button" class="btn" href="r_OrderPay.html">I'm here!</a>
+                <!-- Pones el href correcto -->
+              </div>
+          </div>
+          <!-- Puedes borrar ya que este hecho el php -->
+          <div class="card" id="Japanese">
+              <img src="img/mrsushi1.jpg" style="width:100%" class="image">
+              <div class="middle">
+                <a id="button" class="btn" href="inicio.html">I'm here!</a>
+              </div>
+          </div>
+          <div class="card" id="American">
+              <img src="img/cheesecakefactory1.jpg" style="width:100%" class="image">
+              <div class="middle">
+                <a id="button" class="btn" href="inicio.html">I'm here!</a>
+              </div>
+          </div>
+          <div class="card" id="Italian">
+              <img src="img/italiannis1.jpg" style="width:100%" class="image">
+              <div class="middle">
+                <a id="button" class="btn" href="inicio.html">I'm here!</a>
+              </div>
+          </div>
+          <div class="card" id="Japanese">
+              <img src="img/sushiitto1.jpg" style="width:100%" class="image">
+              <div class="middle">
+                <a id="button" class="btn" href="inicio.html">I'm here!</a>
+              </div>
+          </div>
+          <div class="card" id="American">
+              <img src="img/rebelwings1.jpg" style="width:100%" class="image">
+              <div class="middle">
+                <a id="button" class="btn" href="inicio.html">I'm here!</a>
+              </div>
+          </div>
+
+        </div>
+      </div>
+      <a id="returnbutton" href="Principal_Usuario.html" class="btn btn-default">Return</a>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/code_1.js"></script>
+  </body>
+</html>

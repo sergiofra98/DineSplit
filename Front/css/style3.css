@@ -1,0 +1,57 @@
+.container {
+  padding: 80px 30px;
+}
+
+h1, h2, h3, h4, h5 , h6{
+      font-family: Montserrat, sans-serif;
+}
+
+
+.option {
+  position: relative;
+  font-family: sans-serif;
+  border-radius: 15px;
+  width: 70%;
+  height: 70%;
+}
+
+.option img {
+  width: 100%;
+  border-radius: 15px;
+  vertical-align: top;
+}
+
+.mine h1 {
+  padding-bottom: 30px;
+}
+
+.mine h4 {
+  font-weight: bold;
+}
+#montse{
+  font-family: Montserrat, sans-serif;
+}
+#raleway{
+  font-family: Raleway;
+}
+
+#appetizer, #mdish, #dessert, #beverages{
+  font-family: Raleway;
+}
+
+
+#botonOrden.btn{
+  float: right;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  background-color: #EE712B;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+#botonOrden.btn:hover{
+    background-color:#DC4712;
+    opacity: 0.8;
+    color:white;
+    font-weight: bold;
+}
